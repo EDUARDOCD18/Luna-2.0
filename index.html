@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constelación Wilianni 16-Bits</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="sky">
+            <!-- Contenedor SVG para las líneas -->
+            <svg id="constellation-lines-svg" width="100%" height="100%">
+                <!-- Las líneas se añadirán aquí con JS -->
+            </svg>
+
+            <!-- Capas de nubes (podrían ir debajo del SVG si quieres líneas sobre nubes) -->
+            <div class="cloud-layer cloud-layer-far">
+                <div class="cloud cloud-1"></div>
+                <div class="cloud cloud-2"></div>
+            </div>
+            <div class="cloud-layer cloud-layer-near">
+                <div class="cloud cloud-3"></div>
+                 <div class="cloud cloud-4"></div>
+            </div>
+            <!-- Estrellas normales y de constelación añadidas aquí con JS -->
+        </div>
+        <div class="moon"></div>
+        <div class="ground">
+            <div class="grass-blades">
+                <!-- Briznas generadas -->
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
